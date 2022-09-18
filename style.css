@@ -1,0 +1,40 @@
+body {
+  background-color: #cdf0ea;
+}
+
+legend {
+  font-size: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+/*Radio buttons*/
+.radio label,
+.radio input,
+.radio {
+  display: inline;
+}
+
+/*Check boxes*/
+.check label,
+.check input {
+  display: inline;
+}
+
+button {
+  margin-top: 1rem;
+  background-color: #ecc5fb;
+}
+
+button:hover,
+label:hover {
+  background-color: #faf4b7;
+}
+
+div > label {
+  width: fit-content;
+}

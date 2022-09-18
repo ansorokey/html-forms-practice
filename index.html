@@ -3,6 +3,7 @@
   <head>
     <title>Survey</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <form action="" method="post">
@@ -34,17 +35,17 @@
 
           <div>
             <p>Choose your favorite programming language</p>
-            <div>
+            <div class="radio">
               <input type="radio" name="radio" value="html" id="html" />
               <label for="html">HTML</label>
             </div>
 
-            <div>
+            <div class="radio">
               <input type="radio" name="radio" value="css" id="css" />
               <label for="css">CSS</label>
             </div>
 
-            <div>
+            <div class="radio">
               <input
                 type="radio"
                 name="radio"
@@ -70,12 +71,12 @@
             <input type="date" id="date" />
           </div>
 
-          <div>
+          <div class="check">
             <input type="checkbox" id="newsletter" />
             <label for="newsletter">Sign up for newsletter</label>
           </div>
 
-          <div>
+          <div class="check">
             <input type="checkbox" id="terms" />
             <label for="terms" required="required"
               >Agree to terms and conditions</label
